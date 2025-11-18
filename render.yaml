@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: portfolio-blog-api
+    env: node
+    plan: free 
+    buildCommand: npm install
+    startCommand: npm start
+    repo: https://github.com/ZHANGTONGBINALINA05/portfolio-blog-api 
+    branch: main 
